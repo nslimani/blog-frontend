@@ -32,7 +32,7 @@ const EditComment = () => {
       const {
         data: { comment },
       } = res;
-
+      //hh
       setComment(comment);
     });
   }, [router, commentId, session]);
